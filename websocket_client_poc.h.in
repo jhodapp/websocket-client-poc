@@ -1,0 +1,4 @@
+// websocket_client_poc.h
+// the configured options and settings for Tutorial
+#define WebsocketClientPoc_VERSION_MAJOR @WebsocketClientPoc_VERSION_MAJOR@
+#define WebsocketClientPoc_VERSION_MINOR @WebsocketClientPoc_VERSION_MINOR@
