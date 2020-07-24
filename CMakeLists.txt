@@ -9,8 +9,10 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 configure_file(websocket_client_poc.h.in websocket_client_poc.h)
 
+include_directories(src)
+
 # add the executable
-add_executable(websocket_client_poc main.cpp)
+add_executable(websocket_client_poc src/main.cpp)
 
 ## link libs
 find_package(oatpp              1.1.0 REQUIRED)
