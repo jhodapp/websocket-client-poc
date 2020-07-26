@@ -9,8 +9,8 @@ Follow the instructions for oatpp and oatpp-websocket to compile and install the
 `npm install ws` to install the Node.js ws library
 
 ## Running server
-`cd src
-node server.js`
+`cd src`
+`node server.js`
 
 ## Running client
 `./websocket_client_poc`
