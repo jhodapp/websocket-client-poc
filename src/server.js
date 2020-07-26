@@ -9,5 +9,9 @@ wss.on('connection', function connection(ws, req) {
     console.log('received from %s: %s', req.socket.remoteAddress, message);
   });
 
+wss.on('close', function close(code, reason) {
+    console.log('client closed connection to server (code: %d, reason: %s)', code, reason);
+  });
+
   ws.send('something');
 });
